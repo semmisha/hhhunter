@@ -18,7 +18,7 @@ const (
 func main() {
 
 	logger := logging.Logger()
-	//ConfigPath := os.Getenv("CFGPATH")
+
 	conf := config.NewConfigStruct()
 	conf.GetConfig(ConfigPath, logger)
 
