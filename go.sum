@@ -94,6 +94,8 @@ github.com/semmisha/ClientAPI v0.0.0-20220825222821-676ef745fa8f h1:Ecy8iMasjBb6
 github.com/semmisha/ClientAPI v0.0.0-20220825222821-676ef745fa8f/go.mod h1:iq1jtPxgyltzYqBXl5IhngW4171Crl1TL6lGh2KTzZc=
 github.com/semmisha/ClientAPI v0.0.0-20221023184410-ab853a9b12b9 h1:KRSN921gf9UHu+VYOI9NFbUlYTgYKN4bjvFGeaCHcWs=
 github.com/semmisha/ClientAPI v0.0.0-20221023184410-ab853a9b12b9/go.mod h1:iq1jtPxgyltzYqBXl5IhngW4171Crl1TL6lGh2KTzZc=
+github.com/semmisha/ClientAPI v0.0.0-20221023202157-5c733f76f376 h1:SCh+YJFuPiTJdQFOb6m0BWxVnlSFBfxAkwSxttEGDDo=
+github.com/semmisha/ClientAPI v0.0.0-20221023202157-5c733f76f376/go.mod h1:iq1jtPxgyltzYqBXl5IhngW4171Crl1TL6lGh2KTzZc=
 github.com/shopspring/decimal v0.0.0-20180709203117-cd690d0c9e24/go.mod h1:M+9NzErvs504Cn4c5DxATwIqPbtswREoFCre64PpcG4=
 github.com/shopspring/decimal v1.2.0 h1:abSATXmQEYyShuxI4/vyW3tV1MrKAJzCZ/0zLUXYbsQ=
 github.com/shopspring/decimal v1.2.0/go.mod h1:DKyhrW/HYNuLGql+MJL6WCR6knT2jwCFRcu2hWCYk4o=

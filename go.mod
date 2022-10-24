@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/jackc/pgx/v4 v4.17.2
-	github.com/semmisha/ClientAPI v0.0.0-20221023184410-ab853a9b12b9
+	github.com/semmisha/ClientAPI v0.0.0-20221023202157-5c733f76f376
 	github.com/sirupsen/logrus v1.9.0
 	gopkg.in/yaml.v3 v3.0.1
 )

@@ -5,7 +5,7 @@ import "github.com/semmisha/ClientAPI"
 type TelegramStruct struct {
 	Message string
 	Config  map[string]string
-	Client  *ClientAPI.Message
+	Client  *ClientAPI.TLGClient
 }
 
 func NewTelegramStruct() *TelegramStruct {

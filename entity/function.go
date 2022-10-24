@@ -26,7 +26,7 @@ func (P *ProccessorInterfaces) Process(logger *logrus.Logger) *Count {
 
 			}
 			if ok := repository.SaveSingleData(&i, logger); !ok {
-				logger.Warnf("Unable to save in Repository %v, %v", i.Name, i.ID)
+				logger.Warn("Unable to save in Repository", i.Name, i.ID)
 				count.FailedSaved++
 				continue
 			}
