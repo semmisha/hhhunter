@@ -8,16 +8,19 @@ import (
 	"HHhunter/logging"
 	"HHhunter/repository/sql"
 	"fmt"
+	"os"
 	"time"
 )
 
 const (
-	ConfigPath = "/app/config/files/config.yaml"
+//ConfigPath = "/app/config/files/config.yaml"
 )
 
 func main() {
 
 	logger := logging.Logger()
+	ConfigPath := os.Getenv("ConfigPath")
+	logger.Fatal(ConfigPath)
 
 	conf := config.NewConfigStruct()
 	conf.GetConfig(ConfigPath, logger)

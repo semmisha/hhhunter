@@ -24,7 +24,9 @@ func (C *ConfigStruct) GetConfig(filePath string, logger *logrus.Logger) {
 		logger.Fatal(err1)
 
 	}
-
+	if C == nil {
+		logger.Fatal("Config is empty!!")
+	}
 	//logger.Infoln(C)
 
 }
