@@ -1,0 +1,36 @@
+.
+├── cmd
+│   └── main.go
+├── config
+│   ├── files
+│   │   └── config.yaml
+│   ├── function.go
+│   └── struct.go
+├── controller
+│   └── api
+│       ├── hh
+│       │   ├── function.go
+│       │   └── struct.go
+│       └── telegram
+│           ├── function.go
+│           └── struct.go
+├── dockerfile
+├── entity
+│   ├── function.go
+│   ├── interfaces.go
+│   └── struct.go
+├── go.mod
+├── go.sum
+├── logging
+│   └── logging.go
+├── repository
+│   ├── fs
+│   └── sql
+│       ├── constants.go
+│       ├── function.go
+│       └── struct.go
+├── tree.txt
+└── utils
+    └── utils.go
+
+13 directories, 20 files
